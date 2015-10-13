@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.box {
+  background-color: black;
+  height: 150px;
+  width: 150px;
+}
+
+.row-1 div {
+  display: inline-block;
+  margin: 0 16px 16px 0;
+}
+
+.row-2 div {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.row-3 {
+  height: 170px;
+  position: relative;
+}
+
+.row-3 div {
+  position: absolute;
+}
+
+.row-3 div:nth-child(2) {
+  left: 170px;
+}
+
+.row-3 div:nth-child(3) {
+  left: 340px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
