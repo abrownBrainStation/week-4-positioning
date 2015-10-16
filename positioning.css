@@ -1,0 +1,59 @@
+.container {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  /*position: relative;*/
+}
+
+[class*="box-"] {
+  width: 75px;
+  height: 75px;
+}
+
+
+
+
+
+.box-relative {
+  background-color: red;
+  position: relative;
+  /*top: 5px;*/
+}
+
+.box-absolute {
+  background-color: green;
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
+.box-fixed {
+  background-color: blue;
+  display: none;
+  position: fixed;
+  top: 0;
+}
+
+
+
+
+
+.box-floatleft {
+  background-color: red;
+  float: left;
+  height: 200px;
+  width: 75%;
+}
+
+.box-floatright {
+  background-color: green;
+  float: right;
+  width: 25%;
+}
+
+.box-floatnone {
+  background-color: blue;
+  clear: both;
+  float: none;
+  width: 75%;
+}
